@@ -22,12 +22,12 @@
         <Label Name = "nameLabel" Margin = "2">_Name:</Label>
 
         <TextBox Name = "nameText" Grid.Column = "1" Margin = "2" 
-                 Text = "{Binding Name, Mode = OneWay}"/>
+                 Text = "{Binding Name}"/>
 
         <Label Name = "ageLabel" Margin = "2" Grid.Row = "1">_Age:</Label>
 
         <TextBox Name = "ageText" Grid.Column = "1" Grid.Row = "1" Margin = "2" 
-                 Text = "{Binding Age, Mode = OneWay}"/>
+                 Text = "{Binding Age}"/>
 
         <StackPanel Grid.Row = "2" Grid.ColumnSpan = "2">
             <Button Content = "_Show..." Click="Button_Click" />
