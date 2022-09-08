@@ -27,27 +27,16 @@ namespace WPFDataBinding
     public class Person
     {
 
-        private string nameValue;
-
         public string Name
         {
-            get { return nameValue; }
-            set { nameValue = value; }
+            get;
+            set;
         }
-
-        private double ageValue;
-
+        
         public double Age
         {
-            get { return ageValue; }
-
-            set
-            {
-                if (value != ageValue)
-                {
-                    ageValue = value;
-                }
-            }
+            get;
+            set;
         }
 
     }
